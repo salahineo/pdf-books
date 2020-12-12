@@ -9,7 +9,7 @@
 - [Goal](#goal)
 - [Benefits](#benefits)
 - [Installation](#installation)
-- [Configurations](#Configurations)
+- [Credentials](#credentials)
 - [Technologies](#technologies)
 - [Contact](#contact)
 - [Copyright and license](#copyright-and-license)
