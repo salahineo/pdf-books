@@ -16,17 +16,17 @@
 
 ### Goal
 
-This is a website to download free arabic PDF books. I coded this project to practice on my knowledge of HTML, CSS, JavaScript, jQuery, Bootstrap, PHP, and MySQL in real project.
+This is a website to download free arabic PDF books. I coded this project to practice on my knowledge HTML, CSS, JavaScript, jQuery, Bootstrap, PHP, and MySQL in a real project.
 
 ### Benefits
 
 Here are some ideas to benefit from this project:
 
-- Take this project as a task and try to make it, and if you could not do a specific section, see how i make it in the source code (use comments to reach this section).
-- Extract code of specific section and use it in your project.
+- Take this project as a task and try to make it, and if you could not do a specific section, see how I make it in the source code (use comments to reach this section).
+- Extract a code of a specific section and use it in your project.
 - Review source code to see how other people code their projects.
-- Edit on this project after studying its code well, to know how to work in pair-programming with other people.
-- Upgrade this project, and add your own sections or pages.
+- Edit on this project after studying its code well, to know how to work in pair-programming with other people
+- Upgrade this project, and add your own sections or pages
 
 ### Installation
 
@@ -71,6 +71,7 @@ If you navigate to `http://localhost/pdfbooks/dashboard`, you will be asked for 
 - [LinkedIn](https://linkedin.com/in/salahineo) 💼
 - [Facebook](https://facebook.com/salahineo) 😎
 - [Twitter](https://twitter.com/salahineo) 🐤
+- [Behance](https://www.behance.net/salahineo) :art:
 - [Website](https://salahineo.github.io/salahineo/) :globe_with_meridians:
 - <a href="mailto:salahineo.work@gmail.com">Email</a> :email:
 
