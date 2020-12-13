@@ -12,14 +12,17 @@
         <a href="https://linkedin.com/in/salahineo" target="_blank" class="linkedin">
           <i class="bx bxl-linkedin"></i>
         </a>
+		<a href="https://www.behance.net/salahineo" target="_blank" class="behance">
+          <i class='bx bxl-behance'></i>
+        </a>
+		<a href="https://salahineo.github.io/salahineo/" target="_blank" class="website">
+          <i class='bx bx-world'></i>
+        </a>
         <a href="https://twitter.com/salahineo" target="_blank" class="twitter">
           <i class="bx bxl-twitter"></i>
         </a>
         <a href="https://www.facebook.com/salahineo/" target="_blank" class="facebook">
           <i class="bx bxl-facebook-circle"></i>
-        </a>
-        <a href="https://salahineo.github.io/salahineo/" target="_blank" class="website">
-          <i class='bx bx-world'></i>
         </a>
         <a href="mailto:salahineo.work@gmail.com" target="_blank" class="envelope">
           <i class="bx bxs-envelope"></i>
