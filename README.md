@@ -18,6 +18,8 @@
 
 This is a website to download free arabic PDF books. I coded this project to practice on my knowledge HTML, CSS, JavaScript, jQuery, Bootstrap, PHP, and MySQL in a real project.
 
+> For front-end design only (HTML - CSS - JavaScript), navigate the Front-End directory in the source code.
+
 ### Benefits
 
 Here are some ideas to benefit from this project:
