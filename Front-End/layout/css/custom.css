@@ -1,0 +1,292 @@
+/* Main Rules */
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+
+:root {
+  --main-color: #1f847d;
+  --second-color: #76787d;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  background: #f9f9f9;
+  font-family: "Cairo", sans-serif;
+}
+
+.navbar {
+  background: #fff !important;
+  border-bottom: 1px solid #eee;
+  z-index: 3;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .nav-link {
+  font-weight: 600;
+}
+
+.navbar .dashboard-btn {
+  color: var(--main-color);
+  padding: 5px;
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+  width: 120px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.navbar .dashboard-btn:hover {
+  background: var(--main-color);
+  color: #fff;
+}
+
+/* banar */
+
+.banar {
+  background: url(../images/banar.jpg) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  min-height: 480px;
+}
+
+.banar .overlay {
+  background-color: var(--main-color);
+  opacity: 0.9;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.banar .lib-info {
+  font-family: "Cairo", sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: #fff;
+  width: 90%;
+}
+
+.banar .lib-info h4 {
+  font-size: 65px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.banar .lib-info p {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  line-height: 30px;
+}
+
+/* Books */
+
+.books {
+  margin: 50px 0;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.img-cover {
+  height: 250px;
+  overflow: hidden;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.img-cover .card-img-top {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-title a {
+  color: var(--main-color);
+  transition: 0.3s;
+}
+
+.card-title a:hover {
+  text-decoration: none;
+  color: var(--second-color);
+}
+
+.card-text {
+  color: #777;
+  line-height: 30px;
+  padding: 10px 0;
+}
+
+.custom-btn {
+  padding: 10px;
+  border: 1px solid var(--main-color);
+  outline: none;
+  transition: 0.3s;
+  width: 100%;
+  background: var(--main-color);
+  color: #fff;
+}
+
+.custom-btn:hover {
+  background: var(--main-color);
+}
+
+.custom-btn a {
+  font-size: 18px;
+  display: block;
+  color: #fff;
+}
+
+.custom-btn a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Start Show individual book */
+
+.book-cover {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+}
+
+.book-cover img {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.book-content {
+  margin-top: 20px;
+}
+
+.book-content h4 a {
+  color: #555;
+}
+
+.book-content h4 a:hover {
+  color: #777;
+  text-decoration: none;
+}
+
+.book-content p {
+  line-height: 30px;
+}
+
+.books {
+  min-height: calc(100vh - 232px);
+}
+
+.author-name {
+  font-size: 20px;
+}
+
+/* Related Books */
+
+.related-books {
+  margin-top: 70px;
+}
+
+.related-book {
+  margin: 20px 0;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #eee;
+}
+
+.cover {
+  overflow: hidden;
+}
+
+.cover img {
+  width: 100%;
+}
+
+.title {
+  margin: 10px 0;
+}
+
+.title a {
+  color: #555;
+}
+
+.title a:hover {
+  color: #777;
+}
+
+.book-content p {
+  padding: 20px 0;
+}
+
+.book-content h5 {
+  padding: 10px 0;
+}
+
+.related-book .cover {
+  border-bottom: 1px solid #eee;
+}
+
+/* pagination */
+
+a.page-link,
+a.page-link:hover {
+  color: var(--main-color);
+}
+
+li.page-item.disabled {
+  cursor: not-allowed;
+}
+
+li.page-item.active .page-link {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+/*Contact*/
+
+.contact-us {
+  min-height: calc(100vh - 145px);
+}
+
+.contact {
+  max-width: 740px;
+  margin: auto;
+}
+
+.contact textarea {
+  resize: none;
+}
+
+/* Footer */
+footer {
+  background: #fff;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+  direction: ltr;
+}
+
+footer .container {
+  font-weight: 600;
+}
+
+footer .social-links a {
+  color: #212529;
+  padding: 5px 8px 0 0;
+}
+
+footer .social-links a i {
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+footer .social-links a i:hover {
+  color: #007bff;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Start Meta -->
+  <meta charset="UTF-8">
+  <meta name="author" content="Mohamed Salah">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- End Meta -->
+
+  <!-- Start Title -->
+  <title>لوحة التحكم</title>
+  <!-- End Title -->
+
+  <!-- Start CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-rtl.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- End CSS -->
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/book.png">
+</head>
+
+<body>
+
+  <!-- Start Wrapper -->
+  <div class="d-flex" id="wrapper">
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading bg-success">لوحة التحكم</div>
+      <div class="list-group list-group-flush">
+        <a href="dashboard.html" class="list-group-item list-group-item-action bg-light">نظرة عامة</a>
+        <a href="profile.html" class="list-group-item list-group-item-action bg-light">البروفايل</a>
+        <a href="categories.html" class="list-group-item list-group-item-action bg-light">التصنيفات</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light" data-toggle="collapse" data-target="#menu">الكتب</a>
+        <!-- Collapse menu -->
+        <ul class="collapse sub-menu" id="menu">
+          <li>
+            <a href="new-book.html" class="list-group-item list-group-item-action bg-success ">كتاب جديد</a>
+          </li>
+          <li>
+            <a href="books.html" class="list-group-item list-group-item-action bg-success">كل الكتب</a>
+          </li>
+        </ul>
+        <a href="messages.html" class="list-group-item list-group-item-action bg-light">رسائل المستخدمين</a>
+      </div>
+    </div>
+
+    <!-- Start Page Content -->
+    <div id="page-content-wrapper">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-success" id="menu-toggle"><span class="navbar-toggler-icon"></span></button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html" target="_blank">عرض الموقع <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                 aria-haspopup="true" aria-expanded="false">
+                Admin
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="index.html">تسجيل الخروج</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Content -->
+      <div class="container-fluid">
+        <!-- Start new book -->
+        <div class="new-book">
+          <form action="#" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+              <label for="title">عنوان الكتاب</label>
+              <input type="text" id="title" class="form-control" name="bookTitle" value="ما لا نبوح به">
+            </div>
+            <div class="form-group">
+              <label for="author">إسم الكاتب</label>
+              <input type="text" id="author" class="form-control" name="authorName" value="ساندرا سراج">
+            </div>
+            <div class="form-group">
+              <label for="bookCat">التصنيف</label>
+              <select class="form-control" id="bookCat">
+                <option>كتب تاريخية</option>
+                <option>كتب دينية</option>
+                <option>كتب تعليمية</option>
+                <option selected>روايات</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="bookCover">غلاف الكتاب</label>
+              <input type="file" class="form-control" name="bookCover" id="bookCover">
+            </div>
+            <div class="form-group">
+              <label for="book">ملف الكتاب</label>
+              <input type="file" class="form-control" name="book" id="book">
+            </div>
+            <div class="form-group">
+              <label for="bookContent">نبذة عن الكتاب</label>
+              <textarea id="bookContent" name="bookContent" cols="30" rows="10" class="form-control">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.
+ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.
+هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.</textarea>
+            </div>
+            <button class="btn btn-success">تعديل الكتاب</button>
+          </form>
+        </div>
+      </div>
+      <!-- End new book -->
+    </div>
+    <!-- End Page Content -->
+  </div>
+  <!-- End Wrapper -->
+  <!-- Start Scripts -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- End Scripts -->
+</body>
+</html>
+
