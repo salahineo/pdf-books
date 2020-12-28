@@ -12,9 +12,6 @@
         <a href="https://linkedin.com/in/salahineo" target="_blank" class="linkedin">
           <i class="bx bxl-linkedin"></i>
         </a>
-	<a href="https://www.behance.net/salahineo" target="_blank" class="behance">
-          <i class='bx bxl-behance'></i>
-        </a>
 	<a href="https://salahineo.github.io/salahineo/" target="_blank" class="website">
           <i class='bx bx-world'></i>
         </a>
