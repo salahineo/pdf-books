@@ -39,7 +39,7 @@ Here are the guidelines to run this project on your localhost:
 3. Copy the `pdfbooks` folder to the `htdocs` folder which exists in XAMPP installation path
 4. Start XAMPP control panel from your Desktop, then start `Apache` web server, and `MySQL` server
 5. Open your browser, and type `http://localhost/phpmyadmin`, to open PHPMyAdmin home page
-6. Create a new database with the name `pdfbooks`
+6. Create a new database with the name `pdfBooks`
 7. Import the `pdfbooks.sql` file to this database (This file located in `sql` folder which exist in the `pdfbooks` folder)
 5. Open your browser, and type `http://localhost/pdfbooks`, to open the main page of the website
 6. Navigate to `http://localhost/pdfbooks/dashboard`, to open admin dashboard of the website
