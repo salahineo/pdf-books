@@ -44,6 +44,7 @@ Here are the guidelines to run this project on your localhost:
 5. Open your browser, and type `http://localhost/pdfbooks`, to open the main page of the website
 6. Navigate to `http://localhost/pdfbooks/dashboard`, to open admin dashboard of the website
 
+> **Important Note:** The `php.ini` file has a maximum allowed size for uploaded files = 2mb, so if you upload a book more than 2mb it will not be uploaded. To avoid this change the `Maximum allowed size for uploaded files` in the `php.ini` to whatever you want.
 
 ### Credentials
 
