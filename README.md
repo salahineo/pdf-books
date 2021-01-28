@@ -16,9 +16,9 @@
 
 ### Goal
 
-This is a website to download free arabic PDF books. I coded this project to practice on my knowledge HTML, CSS, JavaScript, jQuery, Bootstrap, PHP, and MySQL in a real project.
+This is a website to download free arabic PDF books. I coded this project to practice on my knowledge of HTML, CSS, JavaScript, jQuery, Bootstrap, PHP, and MySQL in a real project.
 
-> For front-end design only (HTML - CSS - JavaScript), navigate the Front-End directory in the source code.
+> For Front-End design only (HTML - CSS - JavaScript), navigate the Front-End directory in the source code.
 
 ### Benefits
 
@@ -35,16 +35,20 @@ Here are some ideas to benefit from this project:
 Here are the guidelines to run this project on your localhost:
 
 1. Download, then install [XAMPP](https://www.apachefriends.org/download.html) web server
-2. Download this project, then rename its folder to `pdfbooks`
-3. Copy the `pdfbooks` folder to the `htdocs` folder which exists in XAMPP installation path
+2. Download this project, then rename its directory to `pdfbooks`
+3. Copy the `pdfbooks` directory to the `htdocs` directory which exists in XAMPP installation path
 4. Start XAMPP control panel from your Desktop, then start `Apache` web server, and `MySQL` server
 5. Open your browser, and type `http://localhost/phpmyadmin`, to open PHPMyAdmin home page
-6. Create a new database with the name `pdfBooks`
-7. Import the `pdfbooks.sql` file to this database (This file located in `sql` folder which exist in the `pdfbooks` folder)
-5. Open your browser, and type `http://localhost/pdfbooks`, to open the main page of the website
-6. Navigate to `http://localhost/pdfbooks/dashboard`, to open admin dashboard of the website
+6. Create a new database with the name `s_pdf_books`
+7. Import the `s_pdf_books.sql` file to this database (This file located in `sql` directory)
+8. Open your browser, and type `http://localhost/pdfBooks`, to open the home page of the website
+9. Navigate to `http://localhost/pdfbooks/dashboard`, to open admin dashboard of the website
 
-> **Important Note:** The `php.ini` file has a maximum allowed size for uploaded files = 2mb, so if you upload a book more than 2mb it will not be uploaded. To avoid this change the `Maximum allowed size for uploaded files` in the `php.ini` to whatever you want.
+> **Important Note:** The `php.ini` file has a maximum allowed size for uploaded files = 2mb, so if you upload a book more than 2mb it will not be uploaded. To avoid this change the `Maximum allowed size for uploaded files` in the `php.ini` to whatever you want
+
+> You must make a virtual host like `pdf-books.local` for this project, otherwise you will encounter non-accurate routes. If you don't know how to make virtual hosts in XAMPP, then it is the time to search
+
+> Don't forget to edit the `/dashboard/include/connection.php` file with your Database credentials
 
 ### Credentials
 
@@ -80,7 +84,7 @@ If you navigate to `http://localhost/pdfbooks/dashboard`, you will be asked for 
 ### Copyright and license
 
 - **[GPLv3](https://www.gnu.org/licenses/gpl-3.0)**
-- **© 2020 | Mohamed Salah**
+- **© 2021 | Mohamed Salah**
 
 ---
 

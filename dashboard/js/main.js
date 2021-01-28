@@ -6,5 +6,4 @@ $(function () {
   $(".confirm").click(function () {
     return confirm("هل أنت متأكد ؟");
   });
-
 });
