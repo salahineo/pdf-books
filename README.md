@@ -44,11 +44,11 @@ Here are the guidelines to run this project on your localhost:
 8. Open your browser, and type `http://localhost/pdfBooks`, to open the home page of the website
 9. Navigate to `http://localhost/pdfbooks/dashboard`, to open admin dashboard of the website
 
-> **Important Note:** The `php.ini` file has a maximum allowed size for uploaded files = 2mb, so if you upload a book more than 2mb it will not be uploaded. To avoid this change the `Maximum allowed size for uploaded files` in the `php.ini` to whatever you want
-
 > You must make a virtual host like `pdf-books.local` for this project, otherwise you will encounter non-accurate routes. If you don't know how to make virtual hosts in XAMPP, then it is the time to search
 
 > Don't forget to edit the `/dashboard/include/connection.php` file with your Database credentials
+
+> **Important Note:** The `php.ini` file has a maximum allowed size for uploaded files = 2M, so if you upload a book more than 2M it will not be uploaded. To avoid this change the `upload_max_filesize` in the `php.ini` to whatever you want. For multiple files upload you should follow the equatuin of `max_file_uploads * upload_max_filesize = post_max_size`
 
 ### Credentials
 
