@@ -27,7 +27,7 @@
   <!-- End CSS -->
 
   <!-- favicon -->
-  <link rel="icon" type="image/png" href="layout/images/book.png">
+  <link rel="icon" href="layout/images/book.ico">
 </head>
 
 <body>
