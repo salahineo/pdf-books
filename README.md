@@ -48,7 +48,7 @@ Here are the guidelines to run this project on your localhost:
 
 > Don't forget to edit the `/dashboard/include/connection.php` file with your Database credentials
 
-> **Important Note:** The `php.ini` file has a maximum allowed size for uploaded files = 2M, so if you upload a book more than 2M it will not be uploaded. To avoid this change the `upload_max_filesize` in the `php.ini` to whatever you want. For multiple files upload you should follow the equatuin of `max_file_uploads * upload_max_filesize = post_max_size`
+> **Important Note:** The `php.ini` file has a maximum allowed size for uploaded files = 2M, so if you upload a book more than 2M it will not be uploaded. To avoid this change the `upload_max_filesize`, `max_file_uploads`, and `post_max_size` in the `php.ini` according to this equation: `max_file_uploads * upload_max_filesize = post_max_size`.
 
 ### Credentials
 
