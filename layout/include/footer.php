@@ -1,29 +1,9 @@
   <!-- Start Footer -->
   <footer>
     <div class="container">
-      <div class="row d-flex flex-column flex-md-row justify-content-between align-content-center">
+      <div class="row d-flex flex-column flex-md-row justify-content-center align-content-center">
         <div class="copy">
-          &copy; <span id="footer-copyright-year"></span> | <strong><span>Mohamed Salah</span></strong>
-        </div>
-        <div class="social-links mb-2 mb-md-0 text-center text-md-left">
-          <a href="https://github.com/salahineo" target="_blank" class="github">
-            <i class="bx bxl-github"></i>
-          </a>
-          <a href="https://linkedin.com/in/salahineo" target="_blank" class="linkedin">
-            <i class="bx bxl-linkedin"></i>
-          </a>
-          <a href="https://salahineo.github.io/salahineo/" target="_blank" class="website">
-            <i class='bx bx-world'></i>
-          </a>
-          <a href="https://twitter.com/salahineo" target="_blank" class="twitter">
-            <i class="bx bxl-twitter"></i>
-          </a>
-          <a href="https://www.facebook.com/salahineo/" target="_blank" class="facebook">
-            <i class="bx bxl-facebook-circle"></i>
-          </a>
-          <a href="mailto:salahineo.work@gmail.com" target="_blank" class="envelope">
-            <i class="bx bxs-envelope"></i>
-          </a>
+          &copy; <span id="footer-copyright-year"></span> | <a href="https://salahineo.com" rel="noopener" target="_blank">Mohamed Salah</a>
         </div>
       </div>
     </div>
